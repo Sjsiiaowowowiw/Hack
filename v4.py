@@ -104,7 +104,7 @@ def laykey(message):
     print(key)
     
     try:
-        response = requests.get(f'https://link4m.co/api-shorten/v2?api=6544fdf316bc935a412a35dd&url=https://onlytris.space/key.html?key!{key}') #
+        response = requests.get(f'https://link4m.co/api-shorten/v2?api=6544fdf316bc935a412a35dd&url=https://dichvukey.site/key.html?key!{key}') #
         response_json = response.json() #https://dilink.net/api.php?token=2ee45985e455987676904131128555d46302e60526455073ed2eb137c84b038e&url=https://onlytris.space/key.html?key!{key}&url_phong=https://link4m.co/api-shorten/v2?api=6544fdf316bc935a412a35dd&url=https://onlytris.space/key.html?key!{key}&direct=YES
         if 'shortenedUrl' in response_json:
             url_key = response_json['shortenedUrl']
